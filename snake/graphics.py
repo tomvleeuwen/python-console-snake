@@ -1,7 +1,7 @@
 
-import stage
-import game
-import theme
+from . import stage
+from . import game
+from . import theme
 import curses
 
 screen = None
@@ -35,7 +35,7 @@ def drawScore():
 
 def drawLives():
     posx = (-stage.width / 2) + 3
-    for x in xrange(1, game.lives + 1):
+    for x in range(1, game.lives + 1):
         posx += 1
         drawTile(
             posx,

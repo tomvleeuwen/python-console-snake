@@ -1,9 +1,9 @@
 
-import console
+from . import console
 import math
-import config
-import parser
-import themes
+from . import config
+from . import parser
+from . import themes
 
 
 def init():

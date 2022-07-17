@@ -1,9 +1,9 @@
 
-import stage
-import gameloop
+from . import stage
+from . import gameloop
 import math
 import random
-import config
+from . import config
 
 direction = (0, 0)
 lastPos = (0, 0)

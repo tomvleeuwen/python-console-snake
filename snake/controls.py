@@ -1,9 +1,9 @@
 
-import __main__
-import graphics
-import game
-import gameloop
-from config import keys
+from . import __main__
+from . import graphics
+from . import game
+from . import gameloop
+from .config import keys
 
 
 def update():
