@@ -1,5 +1,5 @@
 
-from . import __main__
+from . import main
 from . import graphics
 from . import game
 from . import gameloop
@@ -35,7 +35,7 @@ def update():
             game.direction = (0, -1)
 
         elif key == keys['Q']:
-            __main__.exit()
+            main.exit()
             exit()
 
         elif gameloop.state == 1 and key == keys['ENTER']:
